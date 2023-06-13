@@ -199,7 +199,7 @@
 .watch-container1 {
   width: 90%;
   height: 90%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border-radius: 30px;
 }
 .Head-discription {
@@ -233,7 +233,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 .Q-container {
   width: 100%;
@@ -253,7 +253,7 @@
 .image-contain {
   width: 100%;
   height: 40%;
-  background-color: black;
+  /* background-color: rgb(94, 25, 25); */
   border-radius: 30px;
   display: flex;
   justify-content: end;
@@ -261,9 +261,9 @@
   flex-direction: row;
   margin-left: 2px;
 }
-.image-contain:first-child {
+/* .image-contain:first-child {
   width: 50%;
-}
+} */
 .image-contain img {
   width: 55.6%;
   overflow: hidden;
@@ -401,10 +401,83 @@
   .video-title h2 {
     font-size: 20px;
   }
-  .video-title a{
+  .video-title a {
     font-size: smaller;
   }
-
+  .watch-container1 {
+    height: auto;
+  }
+  .Head-discription {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .watch {
+    height: 70vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .watch-head {
+    width: 100%;
+    font-size: 15px;
+  }
+  .watch-description {
+    width: 80%;
+    padding: 10px 0px 0px 0px;
+  }
+  .Q-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+  }
+  .Q-container div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 6px;
+  }
+  .Q-container div h1 {
+    font-size: 18px;
+  }
+  .image-contain {
+    /* height: ; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: #93f31f; */
+    border-radius: none;
+    /* margin-left: -10px; */
+  }
+  .image-contain :first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    padding-bottom: 2.5px;
+    /* background-color: #fff; */
+  }
+  .image-contain img {
+    margin-bottom: -5px;
+    width: 30%;
+    height: auto;
+    margin-left: -10px;
+  }
+  #last-watch-name {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 50%;
+    font-size: 10px;
+    position: relative;
+    margin-top: -6;
+    /* top: -80%; */
+  }
 }
 
 /* Styles for screens between 601px and 1024px */
