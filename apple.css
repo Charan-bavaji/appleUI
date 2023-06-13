@@ -353,7 +353,7 @@ color: #2997ff;
 .contact a{
 color: #2997ff;
 }
-@media only screen and (max-width: 480px)  {
+/* @media only screen and (max-width: 480px)  {
     .headder{
         width: 100%;
     }
@@ -401,4 +401,4 @@ color: #2997ff;
     .video-title{
     font-size: small;
     }
-}
+} */
